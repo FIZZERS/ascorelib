@@ -1,0 +1,52 @@
+// ============================================================================
+//
+//  Copyright 2012 Adobe Systems
+//
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//
+//    http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
+//
+// ============================================================================
+package com.adobe.utils
+{
+  // ==========================================================================
+  //  Class
+  // --------------------------------------------------------------------------
+  /**
+   * Utility functions for Object.
+   */
+  public final class ObjectUtils
+  {
+    // ========================================================================
+    //  Methods
+    // ------------------------------------------------------------------------
+    /**
+     * Returns the Class for the provided object.
+     * @param object The Object.
+     * @return The Class for the provided object.
+     */
+    static public function getClass( object:Object ):Class
+    {
+      return Object( object ).constructor;
+    }
+    
+    /**
+     * Evaluates if objectA and objectB are the same class.
+     * @param objectA Object A.
+     * @param objectB Object B.
+     * @return true is the objects are the same class, false otherwise.
+     */
+    static public function areSameClass( objectA:Object, objectB:Object ):Boolean
+    {
+      return Object( objectA ).constructor == Object( objectB ).constructor;
+    }
+  }
+}

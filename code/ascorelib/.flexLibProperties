@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="adobe.archive.zip.ZIPArchive"/>
+    <classEntry path="adobe.archive.zip.ZIPEntry"/>
+    <classEntry path="adobe.archive.zip.ZIPHeader"/>
+    <classEntry path="adobe.archive.zip.ZIPLocalFileHeader"/>
+    <classEntry path="adobe.binary.GenericBinary"/>
+    <classEntry path="adobe.binary.GenericBinaryDictionary"/>
+    <classEntry path="adobe.binary.GenericBinaryFormatDescription"/>
+    <classEntry path="adobe.binary.GenericBinaryReference"/>
+    <classEntry path="adobe.binary.GenericBinaryResources"/>
+    <classEntry path="adobe.binary.IBinarySerializable"/>
+    <classEntry path="adobe.binary.ValueByte"/>
+    <classEntry path="adobe.binary.ValueDoubleVector"/>
+    <classEntry path="adobe.binary.ValueInt"/>
+    <classEntry path="adobe.binary.ValueScaledFixedVector"/>
+    <classEntry path="adobe.binary.ValueString"/>
+    <classEntry path="adobe.binary.ValueUnsignedByte"/>
+    <classEntry path="adobe.binary.ValueUnsignedShortVectorVector"/>
+    <classEntry path="adobe.images.ImageUtils"/>
+    <classEntry path="adobe.utils.LZW"/>
+    <classEntry path="adobe.utils.VectorUtils"/>
+    <classEntry path="adobe.wiring.AttributeMatrix3D"/>
+    <classEntry path="adobe.wiring.SamplerMatrix3D"/>
+    <classEntry path="adobe.wiring.SamplerNumber"/>
+    <classEntry path="adobe.wiring.SamplerNumberVector"/>
+    <classEntry path="adobe.wiring.SamplerXYZ"/>
+    <classEntry path="com.adobe.archive.zip.Testing"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
